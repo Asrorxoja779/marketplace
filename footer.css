@@ -1,0 +1,235 @@
+footer {
+    height: 334px;
+    background: #383838;
+}
+
+.footer-section {
+    margin-top: 160px;
+}
+
+.footer-section__kart-button__box {
+    width: 425px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-section__box {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.footer-section__box-logo__socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-section__box-logo__text {
+    color: #cccccc;
+    text-align: start;
+}
+
+.footer-section__box-logo__text h3 {
+    margin: 20px 0px 20px 0px; 
+}
+
+.footer-section__box-explore h2 {
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+
+
+.footer-section__kart-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap: 30px;
+}
+
+.footer-section__kart-text h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: start;
+}
+
+.footer-section__kart-text p {
+    color: #cccccc;
+    font-size: 24px;
+    text-align: start;
+}
+
+.footer-section__kart-button__box  button {
+    padding: 20px 55px;
+    border-radius: 20px;
+    background:#A259FF;
+    border: none;
+    align-items: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.footer-section__kart-button__box input{
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+.footer-section__box-explore  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-section__box-explore__p  {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 20px;
+    color: #cccccc;
+    gap: 14px;
+}
+
+.footer-section__hr {
+    width: 1050px;
+    border-color: #cccccc;
+}
+.footer-section__end-text h3 {
+    text-align: start;
+    margin: 10px 10px;
+    color: #cccccc;
+}
+
+@media screen and (max-width: 834px) {
+    footer {
+        height: auto;
+    }
+
+    .footer-section__box {
+        flex-direction: column;
+        gap: 40px;
+        align-items: start;
+    }
+}
+
+@media screen and (max-width:375px) {
+    footer {
+        height: auto;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .footer-section {
+        height: 550px;
+    }
+
+    .footer-section__box {
+        padding: 15px;
+        flex-direction: column;
+        gap: 15px;
+        align-items: start;
+    }
+
+    .footer-section__box-logo__text__box-img img {
+        width: 150px;
+    }
+
+    .footer-section__kart-text h2 {
+        font-size: 26px;
+    }
+
+    .footer-section__box-logo__text h3 {
+        font-size: 16px;
+    }
+
+    .footer-section__box-logo__socials img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer-section__kart-text {
+        gap: 8px;
+    }
+
+    .footer-section__box-explore__p {
+        gap: 4px;
+    }
+
+    .footer-section__box-explore h2 {
+        font-size: 22px;
+        text-align: start;
+    }
+
+    .footer-section__box-explore {
+        gap: 10px;
+    }
+    
+    .footer-section__kart-text p {
+        font-size: 17px;
+    }
+
+    .footer-section__kart-button__box {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: none;
+    }
+
+    .footer-section__kart-button__box {
+        padding-top: 15px;    
+    }
+
+    .footer-section__kart-button__box input {
+        width: 315px;
+        height: 46px;
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 15px 20px;
+        height: auto;
+        border: none;
+        font-size: 16px;
+    }
+
+    .footer-section__kart-text {
+        justify-content: space-between;
+    }
+
+    .footer-section__kart-button__box button {
+        width: 315px;
+        height: 46px;
+        padding: 10px 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-section__hr {
+        align-items: center;
+        width: 360px;
+        margin-top: 60px;
+    }
+
+    .footer-section__end-text h3 {
+        font-size: 16px;
+    }
+
+    .footer-section__box-logo__text h3 {
+        margin: 5px;
+    }
+
+    .footer-section__kart-text h2 {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,97 @@
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.discover-section {
+    margin-top: 100px;
+}
+
+.discover-section__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover-section__title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.discover-section__title-box__text {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+}
+
+.discover-section__title-box__text h1 {
+    font-family: sans-serif;
+}
+
+.discover-section__title-box__text-paragraph {
+    font-size: 22px;
+}
+
+.discover-section__button-img__p {
+    width: 224px;
+    height: 60px;
+    background: #A259FF;
+    border-radius: 20px;
+}
+
+.discover-section__button-img__p-box {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.discover-section__nombers {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.discover-section__title-box__two {
+    width: 510;
+    height: 510;
+    background:#3B3B3B;
+    border-radius: 20px;
+    text-align: start;
+    color: #ffffff;
+}
+
+.discover-section__title-box__two__items {
+    padding: 10px 22px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.discover-section__title-box__two-animakid {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.discover-section__nombers-paragraph {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+     
+    .discover-section__title {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

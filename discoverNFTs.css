@@ -1,0 +1,310 @@
+.nfts-section {
+    margin-top: 160px;
+}
+
+.nfts-section__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nfts-section__title_items {
+    color: white;
+    text-align: start;
+}
+
+.nfts-section__title_items h2 {
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+.nfts-section__title_items p {
+    font-size: 24px;
+    color: rgb(164, 190, 212);
+}
+
+.nfts-section__title button {
+    width: 187px;
+    height: 60px;
+    border-radius: 18px;
+    border: 2px solid #A259FF;
+    background: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.button-see__icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.nfts-section__contact {
+    margin-top: 60px;
+}
+
+.nfts-section__contact__info-kart {
+    background:#3B3B3B;
+    width: 330px;
+    height: 469px;
+    border-radius: 20px;
+}
+
+.nfts-section__contact__info-kart__none {
+    background:#3B3B3B;
+    width: 330px;
+    height: 469px;
+    border-radius: 20px;
+}
+
+.nfts-section__contact__info-kart__boxs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 30px;
+}
+
+.nfts-section__contact__info-kart__box {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nfts-section__contact__info-kart__box h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.nfts-section__contact {
+    display: flex;
+    gap: 30px;
+}
+
+.nfts-section__contact__info-kart__box_moondancer {
+    display: flex;
+    gap: 10px;
+    color: rgb(230, 238, 218);
+}
+
+.nfts__section__info-box__price-vs-higheast {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nfts__section__info-box__price-text {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nfts__section__info-box__price-text p {
+    color: #858584;
+}
+
+.nfts__section__info-box__price-text h2 {
+    color: #ffffff;
+    font-family: sans-serif
+}
+
+.nfts__section__info-box__higheast-text {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nfts__section__info-box__higheast-text p {
+    color: #858584;
+}
+
+
+.nfts__section__info-box__higheast-text h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.magic-section {
+    margin-top: 80px;
+    position: relative;
+}
+
+
+@media screen and (max-width: 375px)  {
+    .container {
+        width: 90%;
+    }
+
+    .nfts-section__title {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nfts-section__title button {
+        width: 100%;
+        height: 60px;
+    }
+
+    .discover-section__button-img__p {
+        width: 315px;
+        height: 60px;
+    }
+
+    .nfts-section__contact {
+        flex-direction: column;
+    }
+
+
+    .nfts-section__contact__info-kart__none {
+        display: block;
+    }
+}
+
+/*magic section start */
+
+.magic-section__img {
+    width: 100%;
+    height: 640px;
+}
+
+.magic-section__img {
+    position: relative;
+}
+
+.magic-section__items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.magic-section__img img {
+    object-fit: cover;
+}
+
+.magic-section__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 550px;
+}
+
+.magic-section__items__paragrahp  {
+    color: #ddddd6;
+    font-size: 22px;
+} 
+
+.magic-section__items-column__p {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+
+.magic-section__items-column {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.magic-section__items-column__shroomie {
+    width: 151px;
+    height: 44px;
+    background: #383838;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.magic-section__items-column__button button {
+    width: 198px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 20px;
+    
+}
+
+.magic-button__see_all {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.magic-section__items-column__button {
+    width: 198px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: none;
+}
+
+.magic-section__items-times {
+    width: 295px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    background: #3B3B3B80;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.magic-section__items-times__box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.magic-section__items-times__box-minutes {
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 36px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.magic-section__items-times__box-minutes__name {
+    display: flex;
+    gap: 15px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+@media screen and (max-width: 834px) {
+    .container {
+        width: 90%;
+    }
+
+    .magic-section__items-column {
+        gap: 15px;
+    }
+
+    .magic-section__items {
+        gap: 260px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+
+    .magic-section__items {
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column-reverse;
+        gap:30px;
+    }
+
+    .magic-section__items-column__button{
+        width: 100%;
+    } 
+}
