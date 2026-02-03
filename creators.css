@@ -32,6 +32,7 @@
     font-size: 18px
 }
 
+
 .creators-section__button-roketa {
     display: flex;
     align-items: center;
@@ -39,11 +40,20 @@
     gap: 10px;
 }
 
+.creators-section__button-roketa:hover {
+    cursor: pointer;
+}
+
+
 .creators-section__imgs-karts {
     margin-top: 50px;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.creators-section__imgs-kart:hover {
+    cursor: pointer;
 }
 
 .creators-section__imgs-kart__text-box__total-sales {

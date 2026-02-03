@@ -25,6 +25,7 @@ header {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 25px;
 }    
 
@@ -38,43 +39,45 @@ header {
 .header-links {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
-.marketplase-button__link button {
+.marketplase-button__link  {
+    background: #2B2B2B;
+    border: none;
     width: 139px;
     height: 46px;
     font-size: 16px;
-    background-color: #2B2B2B;
-    border: 1px solid #ffffff;
 }
+
 .marketplase-button__link {
-    background: #2B2B2B;
     color: #ffffff;
     width: 139px;
     height: 46px;
-    border: 1px solid #757272;
     border-radius: 4px;
-    font-family: sans-serif
+    font-family: sans-serif;
+    transition: 0.3s;
+    font-size: 18px;
 }
 
 .rankings-button__link {
+    background: none;
     width: 112px;
     height: 46px;
-    background: #2B2B2B;
-    color: #ffffff;
-    border: 1px solid #757272;
+    color: #ffffff; border: none;
     border-radius: 4px;
     font-family: sans-serif;
+    font-size: 18px;
 }
 
 .connect-button__link {
     width: 175px;
     height: 46px;
-    background: #2B2B2B;
-    color: #ffffff;
+    background: none;
+    color: #ffffff;border: none;
     border-radius: 4px;
-    border: 1px solid #757272;
     font-family: sans-serif;
+    font-size: 18px;
 }
 
 .singup__active-button {
@@ -90,8 +93,14 @@ header {
     align-items: center;
 }
 
+.singup__active-button:hover {
+    cursor: pointer;
+}
+
+
 .header-menyu-button {
     display: none;
+    cursor: pointer;
 } 
 
 @media  screen and (max-width: 834px) {
@@ -201,7 +210,6 @@ header {
     }
 
     .weekly-section__kart-button__box button {
-        max-width: 330px;
         width: 100%;
         max-height: 46px;
         height: 100%;
@@ -230,4 +238,23 @@ header {
     .nfts-section__contact__info-kart__none {
         display: block;
     }
+
+    .header-links {
+        position: absolute;
+        flex-direction: column;
+        padding: 12px;
+        gap: 6px;
+    }
+
+    .header-menyu-button {
+        display: block;
+    }
+
+    .header-links.active {
+        display: flex;
+    }
+
+
+
+
 }

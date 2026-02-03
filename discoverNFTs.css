@@ -44,23 +44,39 @@
 
 .nfts-section__contact__info-kart {
     background:#3B3B3B;
-    width: 330px;
-    height: 469px;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
+}
+
+.nfts-section__contact__info-kart:hover {
+    transform: translate(1px) scale(1.0290);
+    box-shadow: 0 0 8px
+}
+
+.button-see__icons:hover {
+    background: rgb(114, 102, 79);
+    box-shadow: 0 0 10px #e77eb8;
+    color: #A259FF;
 }
 
 .nfts-section__contact__info-kart__none {
     background:#3B3B3B;
-    width: 330px;
-    height: 469px;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
+}
+
+.nfts-section__contact__info-kart__none:hover {
+    transform: translate(1px) scale(1.0290);
+    box-shadow: 0 0 8px
 }
 
 .nfts-section__contact__info-kart__boxs {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin: 20px 30px;
+    gap: 14px;
+    padding: 30px 15px;
 }
 
 .nfts-section__contact__info-kart__box {
@@ -89,7 +105,7 @@
 .nfts__section__info-box__price-vs-higheast {
     display: flex;
     justify-content: space-between;
-
+    gap: 100px;
 }
 
 .nfts__section__info-box__price-text {
@@ -187,7 +203,7 @@
 .magic-section__items {
     display: flex;
     justify-content: space-between;
-    gap: 550px;
+    gap: 100px;
 }
 
 .magic-section__items__paragrahp  {
@@ -278,6 +294,11 @@
     justify-content: center;
 }
 
+.magic-button__see_all {
+    display: flex;
+    gap: 10px;
+}
+
 @media screen and (max-width: 834px) {
     .container {
         width: 90%;
@@ -288,7 +309,7 @@
     }
 
     .magic-section__items {
-        gap: 260px;
+        gap: 100px;
     }
 }
 

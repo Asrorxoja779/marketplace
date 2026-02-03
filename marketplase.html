@@ -330,7 +330,7 @@
                             <h2>Discover More NFTs</h2>
                             <p>Explore new trending NFTs</p>
                         </div>
-                        <button>
+                        <button class="button-see__icons">
                             <div class="button-see__icon">
                                 <img src="./marketplase_img/see_all_icon.svg" alt="see all">
                                 <p>See All</p>
@@ -499,7 +499,7 @@
                 </div>    
             </div>
         </main>
-        <footer>
+        <footer class="footer">
             <div class="container">
                 <div class="footer-section">
                     <div class="footer-section__box">
@@ -543,4 +543,10 @@
             </div>
         </footer>
     </body>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const nav = document.querySelector('.nav');
+        menuBtn.addEventListener('click', () => {
+        nav.classList.toggle('active'); });
+    </script>
 </html>
